@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pip-wheel-metadata/
+*.egg-info/
+
+# FAISS index files (optional: keep if you want to share vector store via Git)
+faiss_store/*.faiss
+faiss_store/*.pkl
+faiss_store/index*
+
+# VSCode or PyCharm config
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+.cache/
+*.bak
